@@ -1,4 +1,4 @@
-module mult_for(out, a, b);
+module mult_repeat(out, a, b);
     parameter size = 8;
     
     output[2*size:1] out;
