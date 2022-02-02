@@ -1,6 +1,6 @@
 # Verilog
-##environment
-macOS, Icarus Verilog(iverilog), GTKWave, VS code
+## environment
+macOS, Icarus Verilog(iverilog), GTKWave, VS Code
 
 ## verilog abstraction levels
 ## verilog basic
