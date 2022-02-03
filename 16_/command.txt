@@ -1,0 +1,33 @@
+//Log & Debugger 
+$monitor("At%t, D=%d, Clk=%d", $time, D, Clk, "and Q is %d", Q);
+
+$monitoroff
+$monitoron
+
+$display 
+
+$write
+
+$finish
+$stop
+
+$readmemb //2進制格式
+
+$readmemh //16進制格式
+
+reg[7:0] mem[1:125]
+
+initial $readmemh("mem.data", mem);
+
+initial $readmemh("mem.data", mem, 16);
+
+initial $readmemh("mem.data", mem), 128 , 1;
+
+$random % b
+
+reg[23:0]rand;
+rand = $random%60;
+
+reg[23:0]rand;
+rand = {$random%}60; //0~59
+
